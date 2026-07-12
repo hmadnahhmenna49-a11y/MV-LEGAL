@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
-import { ArrowLeft, Clock, User, ArrowRight } from 'lucide-react';
+import { ArrowLeft, Clock, ArrowRight } from 'lucide-react';
 
 interface Article {
   id: string;
