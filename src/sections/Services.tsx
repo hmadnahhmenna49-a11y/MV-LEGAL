@@ -56,7 +56,7 @@ export default function Services() {
 
     if (!section || !grid || !gridInner) return;
 
-    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
 
     // Header entrance
     const headerElements = section.querySelectorAll('.services-header-animate');
